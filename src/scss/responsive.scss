@@ -1,0 +1,244 @@
+@media only screen and (max-width: 768px) {
+    #destaqueDaSemana{
+        margin: 44px;
+
+        .teste{
+            min-height: 250px !important;
+
+            i{
+                min-height: 50px;
+                min-width: 60px;
+
+                p{
+                    font-size: 10px;
+                }
+            }
+
+            img{
+                height: 170px;
+            }
+        }
+    }
+
+    #bannerApoio{
+        margin:20px 8px;        
+
+        .text{
+            height: 150px;
+        }
+    }
+
+    .col-4{
+        width: 30.9%  !important;
+        height: auto;
+        margin: 5px !important;
+        padding: 0 !important;
+    } 
+
+    .col-3{
+        width: 23.778% !important;
+    }
+
+    .col-6{
+        margin: 5px 28px !important;
+        width: 86.6% !important;
+    }
+
+    header{
+        aside{
+            height: 30px !important;
+        }
+        .col-3{
+            margin: 7px 0 0 0 !important;
+        }
+
+        .pesquisa-compra{ 
+            width: 83%;
+            margin-top: 1%;
+            margin-left: 14%;
+            input{
+                width: 50px !important;
+            }
+        }
+
+        p{
+            font-size: 11px;
+            text-align: center !important;
+            
+            &.caixa-alta{
+                font-size: 12px;
+            }
+        }
+
+        .menu ul li{
+            width: 100%;
+            float: none;
+        }
+        .menu ul{
+            background-color: $light-pink !important;
+        }
+
+        .menu ul ul{
+            position: static;
+            overflow: hidden;
+            max-height: 0;
+            transition: all .4s;
+        }
+
+        .menu ul li:hover ul{
+            height: auto !important;
+            max-height: 200px !important;
+            margin-left: -13px;
+        }
+
+        label[for="bt_menu"]{
+            display: block;
+        }
+
+        .menu{
+            margin-top: -55px;
+            margin-left: -100%;
+            transition: all .4s;
+        }
+
+        #bt_menu:checked ~ .menu{
+            margin-left: -8%;
+            margin-top: 10px;
+        }
+    }   
+
+    #pre-footer{
+        margin: 30px 15px 26px 50px !important;
+
+        form{
+            input{
+                width: 150px !important;
+            }            
+        }
+    }
+    
+    #instagram{
+        .box{
+            left: 38% !important;
+            margin: 84px 0px;
+        }
+    }
+
+    footer{
+        .col-2{
+            width: 20% !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    footer{ 
+        .col {
+            width: 25%;
+        
+            h1 {
+                font-size: 14px;
+            }
+            ul li {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #destaqueDaSemana{
+        margin: 35px;
+
+        .teste{
+            min-height: 250px !important;
+
+            img{
+                height: 190px !important;
+            }
+        }
+    }
+
+    #bannerApoio{
+        margin:10px 8px !important;   
+        
+    }
+
+    #instagram{
+        left: 22% !important;
+        margin: 31px 0px !important;
+    }
+
+    #pre-footer{
+        margin: 30px 15px 26px 12px !important;
+    }
+
+    .col-6{
+        width: 86% !important;
+    }
+
+    .col-4{
+        width: 90% !important;
+        margin: 5px !important;
+    }
+
+    header{
+        aside{
+            height: 38px !important;
+        }
+        .col-3{
+            width: 22.778%;;
+            margin: 7px 0 0 0 !important;
+        }
+
+        p{
+            font-size:9px !important;
+            text-align: center;
+        }
+    }
+
+    footer{
+        .col {
+            width: 45%;
+        
+            h1 {
+                font-size: 13px;
+            }
+            ul li {
+                text-align: left;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    header{
+        aside{
+            height: 46px !important;
+        }
+        
+        p{
+            font-size:9px !important;
+            text-align: center;
+        }
+    }
+
+    #instagram .box{
+        left: 23% !important;
+        margin: 40px 0;
+    }
+
+
+    footer{
+
+        .col-2{
+            width: 50% !important;
+            margin-bottom: 15px;
+        }
+
+        .col {
+            width: 100%;
+        }
+    }
+}

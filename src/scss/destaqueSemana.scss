@@ -1,0 +1,61 @@
+#destaqueDaSemana{
+    margin: 25px 100px;
+    
+    h3{
+        color: $grey-dark;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .teste{
+        background:$white;
+        min-height: 270px !important;
+        margin: 15px;
+        position: relative;
+        text-align: center;
+
+        i{
+            min-height: 100px;
+            min-width: 100px;
+            position: absolute;
+            left: 7.5%;
+            top: 4%;
+            background: $light-pink;
+            border-radius: 100%;
+            p{
+                color: $grey-dark;
+                font-family: 'Playfair Display', serif;
+                font-weight: bold;
+                margin: 40% 0px;
+                font-size: 15px;
+            }
+        }
+
+        img{
+            width: 50%;
+            height: 228px; 
+            margin: auto; 
+        }
+
+        h4{
+            color: $black;
+            font-size: 16px;        
+            font-weight: normal;
+            margin: 10px 10px 5px 5px;
+        }
+
+        h6{
+            color: $rose;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px;
+        }
+
+        p{
+            color: $grey-dark;
+            font-size: 12px;
+            margin: 5px;
+        }
+    }
+}

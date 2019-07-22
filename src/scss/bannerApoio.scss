@@ -1,0 +1,20 @@
+#bannerApoio{
+    margin: 25px 40px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    
+    .col-4{
+        margin: 14px;
+        padding: 5px; 
+    }
+
+    small{
+        color: $rose;
+        text-transform: uppercase;
+    }
+
+    h2{
+        color: $grey-dark;
+        font-weight: normal;
+    }
+}

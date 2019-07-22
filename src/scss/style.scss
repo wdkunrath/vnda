@@ -1,0 +1,62 @@
+@import 'main.scss';
+@import 'destaqueSemana';
+@import 'bannerApoio';
+@import 'bannerPrincipal';
+@import 'instagram';
+@import 'pre-footer';
+@import 'header';
+@import 'footer';
+@import 'responsive';
+
+body{
+    background: $grey;   
+    margin: 0;   
+    font-family: 'PT Sans', sans-serif;
+}
+
+hr{
+    margin: 40px 27px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.row{
+    display: inline;
+    position: relative;
+    vertical-align: middle;
+}
+
+.col-6{
+    width: 36.6%;
+    height: auto;
+    margin: 5px 64px ;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.col-4{
+    width: 30%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    display: inline-grid;
+    position: relative;
+    vertical-align: baseline;       
+}
+
+.col-3{
+    width: 23.778%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    display: inline-block;
+    position: relative;
+    vertical-align: baseline;       
+}
+
+#bannerUnico{
+    margin: 5% 0;    
+}

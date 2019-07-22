@@ -1,0 +1,32 @@
+/*COLORs*/
+$white: #FFFFFF;
+$grey: #F6F6F6;
+$light-pink: #F5E5D9;
+$rose: #F3CCB0;
+$grey-dark: #272727;
+$black: #000000;
+
+.light-pink{
+    background: $light-pink;
+}
+
+.grey-dark{
+    background: $grey-dark;
+}
+
+/*FONTES*/
+@font-face{
+    font-family: 'PT Sans', sans-serif;
+    src:url(/src/fonts/PT_Sans/PTSans-Regular.ttf);
+    src:url(/src/fonts/PT_Sans/PTSans-RegularItalic.ttf);
+    src:url(/src/fonts/PT_Sans/PTSans-Bold.ttf);
+    src:url(/src/fonts/PT_Sans/PTSans-BoldItalic.ttf);
+}
+
+@font-face{
+    font-family: 'Playfair Display', serif;
+    src:url(/src/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+    src:url(/src/fonts/Playfair_Display/PlayfairDisplay-RegularItalic.ttf);
+    src:url(/src/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+    src:url(/src/fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf);
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>VnDa</title>
+        <link rel="stylesheet" href="dist/style.css">
+        <link rel="stylesheet" href="dist/style.min.css">
+        <link rel="stylesheet" type="text/css" href="src/js/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="src/js/slick/slick-theme.css"/><script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    </head>
+
+    <body>
+        <header> 
+            <aside class="light-pink">
+                <div class="row">
+                    <div class="col-3">
+                        <p class="outono">Outono está chegando...</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="caixa-alta">todas as novidades aqui</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="novidades"><a href="">Novidades para o rosto</a></p>
+                    </div>
+                    <div class="col-3">
+                        <p class="novidades"><a href="">Novidades para o corpo</a></p>
+                    </div>
+                </div>
+           
+                <div class="pesquisa-compra">
+                    <div class="col-4 busca"><svg class="svg-icon" viewBox="0 0 20 20" style="width: 20px;position: absolute;
+                        margin-top: 5px;">
+                            <path fill="block" d="M18.109,17.776l-3.082-3.081c-0.059-0.059-0.135-0.077-0.211-0.087c1.373-1.38,2.221-3.28,2.221-5.379c0-4.212-3.414-7.626-7.625-7.626c-4.212,0-7.626,3.414-7.626,7.626s3.414,7.627,7.626,7.627c1.918,0,3.665-0.713,5.004-1.882c0.006,0.085,0.033,0.17,0.098,0.234l3.082,3.081c0.143,0.142,0.371,0.142,0.514,0C18.25,18.148,18.25,17.918,18.109,17.776zM9.412,16.13c-3.811,0-6.9-3.089-6.9-6.9c0-3.81,3.089-6.899,6.9-6.899c3.811,0,6.901,3.09,6.901,6.899C16.312,13.041,13.223,16.13,9.412,16.13z"></path>
+                        </svg><input type="text" placeholder="busca"></div>
+                    <div class="col-4">
+                        <h1>Vnda</h1>
+                    </div>
+                    <div class="col-4 compra"><p>login / minha conta<span><svg class="svg-icon" viewBox="0 0 20 20" style="width: 20px">
+                            <path fill="block" d="M17.696,9.368H2.305c-0.189,0-0.367,0.092-0.478,0.245c-0.11,0.155-0.141,0.352-0.08,0.532l2.334,6.918c0.081,0.238,0.305,0.4,0.556,0.4h10.735c0.253,0,0.478-0.162,0.557-0.402l2.323-6.917c0.062-0.179,0.03-0.376-0.079-0.531C18.062,9.459,17.886,9.368,17.696,9.368z M14.95,16.287H5.062l-1.938-5.743h13.753L14.95,16.287z"></path>
+                            <path fill="block" d="M6.345,7.369c0.325,0,0.588-0.263,0.588-0.588c0-1.691,1.376-3.067,3.067-3.067c1.691,0,3.067,1.376,3.067,3.067c0,0.325,0.264,0.588,0.588,0.588c0.326,0,0.589-0.263,0.589-0.588c0-2.34-1.904-4.243-4.244-4.243c-2.34,0-4.244,1.903-4.244,4.243C5.757,7.106,6.02,7.369,6.345,7.369z"></path>
+                        </svg></span></p>
+                    </div>                    
+                </div>  
+            </aside>
+            <input type="checkbox" id="bt_menu">
+            <label for="bt_menu">&#9776;</label>
+                  
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Novidades!</a></li>
+                    <li><a href="#" class="active">Perfumaria</a>
+                        <ul>
+                            <li><a href="">Colonia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Rosto</a></li>
+                    <li><a href="#">Corpo e banho</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Naturais & Orgânicos</a></li>
+                    <li><a href="#">Presentes</a></li>
+                    <li><a href="#">Promoções</a></li>
+                    <li><a href="#">Linhas</a></li>
+                </ul>
+            </nav>               
+        </header>
+        <section id="carroussel">
+            <div class="bannerPrincipal">
+                <div><img src="https://picsum.photos/1350/480" alt="bannerPrincipal1"/></div>
+                <div><img src="https://picsum.photos/1350/480" alt="bannerPrincipal2"/></div>
+                <div><img src="https://picsum.photos/1350/480" alt="bannerPrincipal3"/></div>
+                <div><img src="https://picsum.photos/1350/480" alt="bannerPrincipal4"/></div>
+            </div>            
+        </section>
+        <section id="destaqueDaSemana">
+            <h3>Destaques da semana</h3>
+            <hr>
+            <div class="produtoDeMostra">
+                <div class="teste">
+                    <i><p>Comprar</p></i>
+                    <img src="src/img/bergamota-lirio.png" alt="bergamota-lirio">
+                    <h4>Every Day Shampoo</h4>
+                    <h6>$ 28.00</h6>
+                    <p>ou 2X de $ 14.00</p>
+                </div>
+                <div class="teste">
+                    <i><p>Comprar</p></i>
+                    <img src="src/img/flores-caramelo.png" alt="flores-caramelo">
+                    <h4>Every Day Shampoo</h4>
+                    <h6>$ 28.00</h6>
+                    <p>ou 2X de $ 14.00</p>
+                </div>
+                <div class="teste">
+                    <i><p>Comprar</p></i>
+                    <img src="src/img/pimenta-melao.png" alt="pimenta-melao">
+                    <h4>Every Day Shampoo</h4>
+                    <h6>$ 28.00</h6>
+                    <p>ou 2X de $ 14.00</p>
+                </div>
+                <div class="teste">
+                    <i><p>Comprar</p></i>
+                    <img src="src/img/bergamota-lirio.png" alt="bergamota-lirio">
+                    <h4>Every Day Shampoo</h4>
+                    <h6>$ 28.00</h6>
+                    <p>ou 2X de $ 14.00</p>
+                </div>
+                <div class="teste">
+                    <i><p>Comprar</p></i>
+                    <img src="src/img/flores-caramelo.png" alt="flores-caramelo">
+                    <h4>Every Day Shampoo</h4>
+                    <h6>$ 28.00</h6>
+                    <p>ou 2X de $ 14.00</p>
+                </div>
+                <div class="teste">
+                    <i><p>Comprar</p></i>
+                    <img src="src/img/pimenta-melao.png" alt="pimenta-melao">
+                    <h4>Every Day Shampoo</h4>
+                    <h6>$ 28.00</h6>
+                    <p>ou 2X de $ 14.00</p>
+                </div>
+            </div>
+        </section>
+        <section id="bannerUnico">
+            <img src="https://picsum.photos/id/102/1500/450" alt="bannerUnico">
+        </section>
+        <section id="bannerApoio">
+            <div class="row">
+                <div class="col-4">
+                    <img src="src/img/banner-1.jpg" alt="banner-1">
+                    <div class="text">
+                        <small>Playa</small>
+                        <h2>Ritual Noturno: Praia x Domingo Riley x Lunya</h2>
+                    </div>                    
+                </div>
+                <div class="col-4">
+                    <img src="src/img/banner-2.jpg" alt="banner-2">
+                    <div class="text">
+                        <small>Playa</small>
+                        <h2>Get Real: A diferença entre produtos de beleza orgânicos e naturais.</h2>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="src/img/banner-3.jpg" alt="banner-3">
+                    <div class="text">
+                        <small>Embaixadores</small>
+                        <h2>Kristen Shaw, proprietária do Cabin Salon, Veneza</h2>
+                    </div>                    
+                </div>                
+            </div>
+        </section>
+        <section id="instagram">
+            <div class="box">#instagram</div>
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-cfd2d988-6fbb-40ef-b232-6b449373ea10"></div>
+        </section>
+        <hr>
+        <section id="pre-footer">            
+            <div class="row">
+                <div class="col-6">
+                    <h2>Stay in the Know!</h2>
+                    <p>Sign up for emails to get the scoop on new arrivals, special sales and more.</p>
+                </div>
+                <div class="col-6">
+                    <form>
+                        <label for="email">Email Address*</label><br>
+                        <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com">
+                        <button class="button button--accept">Submit</button>
+                    </form>                    
+                </div>
+            </div>
+        </section>          
+        <footer class="grey-dark">
+            <div class="contain">
+                <div class="col">
+                    <h1><a href="mailto:ajuda@vnda.com.br"><span class="fale-conosco"><svg class="icon-fale" viewBox="0 0 20 20" style="width: 20px;margin: 0 5px;"><path d="M17.388,4.751H2.613c-0.213,0-0.389,0.175-0.389,0.389v9.72c0,0.216,0.175,0.389,0.389,0.389h14.775c0.214,0,0.389-0.173,0.389-0.389v-9.72C17.776,4.926,17.602,4.751,17.388,4.751 M16.448,5.53L10,11.984L3.552,5.53H16.448zM3.002,6.081l3.921,3.925l-3.921,3.925V6.081z M3.56,14.471l3.914-3.916l2.253,2.253c0.153,0.153,0.395,0.153,0.548,0l2.253-2.253l3.913,3.916H3.56z M16.999,13.931l-3.921-3.925l3.921-3.925V13.931z"></path></svg></span>Fale conosco</a></h1> 
+                    <h1><a href="https://www.google.com/maps/dir/Centro+Cl%C3%ADnico+Ga%C3%BAcho,+Av.+Alberto+Bins,+391+-+Centro+Hist%C3%B3rico,+Porto+Alegre+-+RS,+90030-142/vnda+ecommerce/@-30.0236315,-51.214871,15z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x951979086ba90497:0xad49a2da1838060e!2m2!1d-51.222723!2d-30.028241!1m5!1m1!1s0x951979c5455d1065:0x19bd8a59c801d28!2m2!1d-51.1899597!2d-30.0211603" target="_blank"><span class="encontre-consultor"><svg class="icon-consultor" viewBox="0 0 20 20" style="width: 20px;margin: 0 5px;"><path d="M10,1.375c-3.17,0-5.75,2.548-5.75,5.682c0,6.685,5.259,11.276,5.483,11.469c0.152,0.132,0.382,0.132,0.534,0c0.224-0.193,5.481-4.784,5.483-11.469C15.75,3.923,13.171,1.375,10,1.375 M10,17.653c-1.064-1.024-4.929-5.127-4.929-10.596c0-2.68,2.212-4.861,4.929-4.861s4.929,2.181,4.929,4.861C14.927,12.518,11.063,16.627,10,17.653 M10,3.839c-1.815,0-3.286,1.47-3.286,3.286s1.47,3.286,3.286,3.286s3.286-1.47,3.286-3.286S11.815,3.839,10,3.839 M10,9.589c-1.359,0-2.464-1.105-2.464-2.464S8.641,4.661,10,4.661s2.464,1.105,2.464,2.464S11.359,9.589,10,9.589"></path></svg></span>Encontro um consultor</a></h1>               
+                </div>            
+                <div class="col">
+                    <h1>Ajuda</h1>
+                    <ul>
+                        <li>Track your order</li>
+                        <li>Returns</li>
+                        <li>Shipping</li>
+                        <li>Costumer service</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>Sobre Nós</h1>
+                    <ul>
+                        <li>Our story</li>
+                        <li>Events</li>
+                        <li>Brands</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h1>Services</h1>
+                    <ul>
+                        <li>Anthroperkis</li>
+                        <li>Gift card</li>
+                        <li>To the trade</li>
+                        <li>Furniture guide</li>
+                    </ul>
+                </div>
+                <div class="col social">
+                    <h1>Follow Us</h1>
+                    <ul>
+                    <li><a href="https://twitter.com/vndae" target="_blank"><svg class="svg-icon" viewBox="0 0 20 20" style="width: 20px">
+                            <path fill="block" d="M18.258,3.266c-0.693,0.405-1.46,0.698-2.277,0.857c-0.653-0.686-1.586-1.115-2.618-1.115c-1.98,0-3.586,1.581-3.586,3.53c0,0.276,0.031,0.545,0.092,0.805C6.888,7.195,4.245,5.79,2.476,3.654C2.167,4.176,1.99,4.781,1.99,5.429c0,1.224,0.633,2.305,1.596,2.938C2.999,8.349,2.445,8.19,1.961,7.925C1.96,7.94,1.96,7.954,1.96,7.97c0,1.71,1.237,3.138,2.877,3.462c-0.301,0.08-0.617,0.123-0.945,0.123c-0.23,0-0.456-0.021-0.674-0.062c0.456,1.402,1.781,2.422,3.35,2.451c-1.228,0.947-2.773,1.512-4.454,1.512c-0.291,0-0.575-0.016-0.855-0.049c1.588,1,3.473,1.586,5.498,1.586c6.598,0,10.205-5.379,10.205-10.045c0-0.153-0.003-0.305-0.01-0.456c0.7-0.499,1.308-1.12,1.789-1.827c-0.644,0.28-1.334,0.469-2.06,0.555C17.422,4.782,17.99,4.091,18.258,3.266"></path>
+                        </svg></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/vndaecommerce/" target="_blank"><svg class="svg-icon" viewBox="0 0 20 20" style="width: 20px">
+                            <path fill="block" d="M14.52,2.469H5.482c-1.664,0-3.013,1.349-3.013,3.013v9.038c0,1.662,1.349,3.012,3.013,3.012h9.038c1.662,0,3.012-1.35,3.012-3.012V5.482C17.531,3.818,16.182,2.469,14.52,2.469 M13.012,4.729h2.26v2.259h-2.26V4.729z M10,6.988c1.664,0,3.012,1.349,3.012,3.012c0,1.664-1.348,3.013-3.012,3.013c-1.664,0-3.012-1.349-3.012-3.013C6.988,8.336,8.336,6.988,10,6.988 M16.025,14.52c0,0.831-0.676,1.506-1.506,1.506H5.482c-0.831,0-1.507-0.675-1.507-1.506V9.247h1.583C5.516,9.494,5.482,9.743,5.482,10c0,2.497,2.023,4.52,4.518,4.52c2.494,0,4.52-2.022,4.52-4.52c0-0.257-0.035-0.506-0.076-0.753h1.582V14.52z"></path>
+                        </svg></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/vnda.e/" target="_blank"><svg class="svg-icon" viewBox="0 0 20 20" style="width: 20px">
+                            <path fill="block" d="M17.675,0.62H2.327c-0.942,0-1.706,0.764-1.706,1.706v15.348c0,0.941,0.764,1.705,1.706,1.705h15.348c0.941,0,1.705-0.764,1.705-1.705V2.326C19.38,1.384,18.616,0.62,17.675,0.62 M18.526,17.674c0,0.471-0.381,0.852-0.852,0.852H2.327c-0.471,0-0.853-0.381-0.853-0.852V2.326c0-0.471,0.382-0.853,0.853-0.853h15.348c0.471,0,0.852,0.382,0.852,0.853V17.674zM10.849,7.975c0-0.345,0.035-0.531,0.565-0.531h0.709V6.162h-1.134c-1.364,0-1.844,0.642-1.844,1.721v0.834h-0.85V10h0.85v3.838h1.701V10h1.134l0.151-1.283h-1.285L10.849,7.975z"></path>
+                        </svg></a>
+                    </li>
+                    <li><a href="https://www.vnda.com.br/" target="_blank"><svg class="svg-icon" viewBox="0 0 20 20" style="width: 20px">
+                            <path fill="block" d="M9.797,2.214C9.466,2.256,9.134,2.297,8.802,2.338C8.178,2.493,7.498,2.64,6.993,2.935C5.646,3.723,4.712,4.643,4.087,6.139C3.985,6.381,3.982,6.615,3.909,6.884c-0.48,1.744,0.37,3.548,1.402,4.173c0.198,0.119,0.649,0.332,0.815,0.049c0.092-0.156,0.071-0.364,0.128-0.546c0.037-0.12,0.154-0.347,0.127-0.496c-0.046-0.255-0.319-0.416-0.434-0.62C5.715,9.027,5.703,8.658,5.59,8.101c0.009-0.075,0.017-0.149,0.026-0.224C5.65,7.254,5.755,6.805,5.948,6.362c0.564-1.301,1.47-2.025,2.931-2.458c0.327-0.097,1.25-0.252,1.734-0.149c0.289,0.05,0.577,0.099,0.866,0.149c1.048,0.33,1.811,0.938,2.218,1.888c0.256,0.591,0.33,1.725,0.154,2.483c-0.085,0.36-0.072,0.667-0.179,0.993c-0.397,1.206-0.979,2.323-2.295,2.633c-0.868,0.205-1.519-0.324-1.733-0.869c-0.06-0.151-0.161-0.418-0.101-0.671c0.229-0.978,0.56-1.854,0.815-2.831c0.243-0.931-0.218-1.665-0.943-1.837C8.513,5.478,7.816,6.312,7.579,6.858C7.39,7.292,7.276,8.093,7.426,8.672c0.047,0.183,0.269,0.674,0.23,0.844c-0.174,0.755-0.372,1.568-0.587,2.31c-0.223,0.771-0.344,1.562-0.56,2.311c-0.1,0.342-0.096,0.709-0.179,1.066v0.521c-0.075,0.33-0.019,0.916,0.051,1.242c0.045,0.209-0.027,0.467,0.076,0.621c0.002,0.111,0.017,0.135,0.052,0.199c0.319-0.01,0.758-0.848,0.917-1.094c0.304-0.467,0.584-0.967,0.816-1.514c0.208-0.494,0.241-1.039,0.408-1.566c0.12-0.379,0.292-0.824,0.331-1.24h0.025c0.066,0.229,0.306,0.395,0.485,0.52c0.56,0.4,1.525,0.77,2.573,0.523c1.188-0.281,2.133-0.838,2.755-1.664c0.457-0.609,0.804-1.313,1.07-2.112c0.131-0.392,0.158-0.826,0.256-1.241c0.241-1.043-0.082-2.298-0.384-2.981C14.847,3.35,12.902,2.17,9.797,2.214"></path>
+                        </svg></a>
+                    </li>
+                    </ul>
+                </div>           
+                <div class="clearfix"></div>
+            </div>
+            <div class="privacy">
+                <div class="col-2">
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="col-2">
+                    <p>Terms of Use</p>
+                </div>
+                <div class="col-2">
+                    <p>CA Notice</p>
+                </div>
+                <div class="col-2">
+                    <p>Accessibility</p>
+                </div>
+                <div class="col-2">
+                    <p>URBN.com</p>
+                </div>
+                <div class="clearfix"></div>
+            </div> 
+        </footer>            
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="src/js/slick/slick.min.js"></script>
+        <script type="text/javascript">
+            $(window).load(function(){
+                $('.eapps-instagram-feed a[href="https://elfsight.com/instagram-feed-instashow/?utm_source=websites&utm_medium=clients&utm_content=instagram-feed&utm_term=undefined&utm_campaign=free-widget"]').css('display','none !important');
+            });
+
+            $(document).ready(function(){
+                                
+                $(".menu").click(function() {
+                    $("ul").toggleClass("active");
+                });
+
+                $('.bannerPrincipal').slick({
+                    dots:true,
+                    infinite:true,
+                    slidesToShow: 1,
+                    slidesToScroll:1,
+                    autoplay: true,
+                    autoplaySpeed: 3000
+                });
+
+                $('.produtoDeMostra').slick({
+                    infinite: true,
+                    speed: 100,
+                    slidesToShow: 4,
+                    slidesToScroll:1,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                        }
+                    }
+                    ]
+                }); 
+            });     
+        </script>
+    </body>
+</html>
