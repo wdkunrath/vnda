@@ -21,7 +21,7 @@ Prazo estipulado por mim 3 dias. Foram trabalhados 4 horas por dia todos os dias
 
 Para produção era necessario ter o node.js instalado. 
 
-versão utilizada foi a instavel até o momento de 07/2019
+versão utilizada foi a estavel até o momento de 07/2019
 v10.16.0
 
 Estrutura:
